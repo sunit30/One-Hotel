@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+/* h1, h2, h3 {
+    padding-bottom: 20px;
+  }
+  */
+  p {
+    margin: 10px 0;
+  } 
+.lead{
+    font-size: 20px;
+}
+.text-primary{
+    color: #923e31;
+}
+.bg-dark{
+    background-color: #333;
+    color: #ffffff;
+}
+.bg-light{
+    background-color: #f4f4f4;
+    color: #333;
+}
+.bg-primary{
+    background-color: #923f32;
+    color:#333;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+.btn{
+    color: #ffffff;
+    background-color: #333;
+    border: none;
+    padding: 13px 20px;
+    font-size: 18px;
+    display: inline-block;
+    cursor: pointer;
+}
+.btn-light{
+    background-color: #f4f4f4;
+    color: #333;
+}
+.btn:hover{
+    background-color: #993020;
+    color: #333;
+}
+.clr{
+    clear: both;
+}
+
+#navbar{
+    background-color:#333;
+    overflow: auto;
+}
+.container{
+    max-width: 1110px;
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.logo{
+    float: left;
+    padding: 15px;
+}
+
+
+.logo a {
+    
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px;
+
+}
+#navbar ul {
+    list-style: none;
+    float:right;
+}
+#navbar ul li{
+    display: block;
+    float: left;
+    text-align: center;
+    padding: 15px;
+
+    
+}
+#navbar ul li:hover,#navbar ul li.current{
+    background-color: #993020;
+    color:#333;
+}
+#navbar ul li a{
+   
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px;
+}
+.showcase{
+    background: url('../img/showcase.jpg') no-repeat center center/cover;
+    height:600px;
+}
+.showcase .showcase-content{
+    padding-top: 170px;
+    text-align: center;
+    color: #ffffff;
+}
+.showcase .showcase-content h1{
+    font-size: 60px;
+    padding-bottom: 20px;
+    line-height: 1.2em;
+}
+.showcase .showcase-content p{
+    line-height: 1.7em;
+    padding-bottom: 20px;
+}
+.home-info{
+    height:500px;
+}
+.home-info .img-section{
+    width: 50%;
+    float:left;
+    background:url('../img/photo-1.jpg') no-repeat;
+    background-position:100% ;
+    min-height: 100%;
+}
+.home-info .content-section{
+    width: 50%;
+    float: right;
+    text-align: center;
+    padding: 85px 30px;
+    overflow: hidden;
+}
+.home-info .content-section .home-heading{
+    padding-bottom: 20px;
+}
+.home-info .content-section p{
+    padding-bottom: 30px;
+}
+.box{
+    width: 33.3%;
+    float:left;
+    text-align: center;
+    padding: 50px;
+}
+.box i{
+    margin-bottom: 10px;
+}
+.footer-section{
+    background-color: #444;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+}
+.about-header{
+    padding-bottom: 20px;
+    padding-top:16px;
+    overflow: auto;
+}
+.about-header .left-section{
+    width:50%;
+    padding-bottom: 22px;
+    float:left;
+    min-height: 100%;
+}
+.about-header .left-section h1{
+     font-size:40px;
+     padding-bottom: 20px;
+     line-height: 1.2;
+ }
+.about-header .right-section {
+    float:right;
+    width: 50%;
+    min-height: 100%;
+}
+
+.about-header .right-section img{
+    width: 70%;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+}
+.testimonials{
+background:url('../img/test-bg.jpg') no-repeat center center/cover;
+height: 100%;
+padding-top: 100px;
+}
+.testimonials h2{
+    text-align: center;
+    color: #ffffff;
+    font-size: 40px;
+    padding-bottom: 40px;
+}
+
+.testimonials .testimonial{
+padding:20px;
+margin-bottom: 40px;
+color: #ffffff;
+opacity: 0.9;
+border-radius: 5px;
+}
+
+.testimonials .testimonial img{
+width: 100px;
+float: left;
+margin-right: 20px;
+border-radius: 50%;
+}
+
+.contact-form{
+    padding: 20px 0;
+}
+.contact-form h1{
+    font-size: 40px;
+    padding-bottom: 20px;
+    
+}
+.contact-form .form-group label{
+    margin-bottom: 5px;
+}
+.contact-form .form-group input{
+    display: block;
+    border: solid 1px #ddd;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.contact-form .form-group input[type="text-area"]{
+    height: 200px;
+}
+.layer{
+    height: 100%;
+    overflow: hidden;
+}
