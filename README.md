@@ -1,2 +1,2 @@
 # One-Hotel
-website built with HTML &amp; CSS
+Responsive website built with HTML & CSS
